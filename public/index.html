@@ -5,17 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Musicana-Team</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 </head>
 <body>
-    <input type="search" id="search" placeholder="Search">
-    <button type="submit" id="submit">Search</button>
-    <input type="number" id="number">
-    <div id="div1">
-        <img src="" id="image">
-        <ul id="result">
 
-        </ul>
-    </div>
+
+    <!-- Start Header -->
+    <section class="header">
+        <div class="overlay-h">
+            <h1>Musicana-Team</h1>
+            <p>Discover, share and listen to your favourite songs and singers <br>
+                Just search and enjoy</p>
+                <i class="fas fa-chevron-down"></i> <br>
+                <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+
+    <!-- End Header -->
+
+
+    <!--Start Content-->
+    <section class="content">
+    <h2>Type your favourite singer</h2>
+            <input class="search" type="search" id="search" placeholder="Search....." aria-label="search">
+            <button type="submit" id="submit">Search</button>
+            <input type="number" id="number" value="5" class="number" aria-label="number">
+            <div id="div1" class="results">
+                <img src="" id="image" alt="image" >
+                <hr>
+                <ul id="result">
+        
+                </ul>
+            </div>
+
+    </section>  
+    <!--End Content-->
+
+
+
+    <!--Start footer-->
+    <!--End footer-->
+
+
+
     <script src="js/config.js"></script>
     <script src="js/DOM.js"></script>
     <script src="js/logic.js"></script>
