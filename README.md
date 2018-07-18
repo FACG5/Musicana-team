@@ -40,7 +40,7 @@ If any one wants to use our website he/she can type any singer name that they wa
 
 ## Who are we?
  
- * Asmaa Almadhoon
+ * Asmaa Almadhoun
  
  * Mohannad Alhanafi
  
