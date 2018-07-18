@@ -29,6 +29,8 @@
                     }
             }
         }
+        image.src = "";
+        view.innerHTML = "";
         xhr.open("GET", url, true);
         xhr.send();
     })
