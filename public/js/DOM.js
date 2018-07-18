@@ -8,17 +8,17 @@ var number = getID("number");
     
     var lyrics = document.querySelector('.lyrics');
 
-    var mykey = config.MY_KEY;
+    // var mykey = config.MY_KEY;
     search.addEventListener('click', function() { 
         view.innerHTML = ""; 
 
         var limit = number.value;
         var inpSearch = result.value;
-        var url = "http://ws.audioscrobbler.com/2.0/?method=track.search&track=%20&artist="+inpSearch+"&format=json&api_key="+mykey+"&limit="+limit+"";
+        var url = "http://ws.audioscrobbler.com/2.0/?method=track.search&track=%20&artist="+inpSearch+"&format=json&api_key=a4e7f14385fcf0448c9693394bd04c0e&limit="+limit+"";
         fetch(url, function(obj){
             var leng = obj.results.trackmatches.track.length;
+            if (obj.results.trackmatches.track[0]){
             var image1 = obj.results.trackmatches.track[0].image[3]["#text"];
-            console.log(image1);
             var image = create("img");
             image.src = image1;
             view.appendChild(image);
@@ -36,13 +36,12 @@ var number = getID("number");
             }
 
             
-
+        } else alert ("No results found")
 
         })
     })
 
     view.addEventListener('click',function(e){
-
         var keywords = e.target.textContent.split(' ').join('+');
         var mp4link;
         var alyrics;

@@ -80,15 +80,17 @@ body{
 
 
  .content .results {
-    border: 1px solid #333;
+    border: 1px solid #f3f3f2;
     margin-top: 30px !important;
     padding: 30px 0;
-    width: 95%;
+    width: 80%;
     margin: auto;
+    background: rgba(251, 201, 131, 0.46);
 }
 .content .results hr{
     width: 80%;
-    margin:  0 auto;
+    margin: 0 auto;
+    border: 1px solid #f50;
 
 }
 .content .results img{
@@ -112,6 +114,42 @@ body{
     font-weight: bold;
 }
 .content .results ul li a:hover{color: #f50}
+
+
+
+.content .lyrics{    
+    margin: 0 auto;
+    width: 60%;
+    line-height: 2;
+    padding: 20px 50px;
+    font-size: 17px;
+    /* background: rgba(232, 185, 118, 0); */
+    border-left: 2px solid #ff5401;
+    border-right: 2px solid #ff5401;
+    margin-top: 2%;
+}
+
+    .music{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 5%;
+        min-height: 100px;
+    }
+    .short{
+        background: #fff;
+        min-height: 50px;
+        min-width: 50px;
+    }
+    .medium{
+        background: #fff;
+        min-height: 50px;
+        min-width: 50px;
+    }
+    .tall{
+        background: #fff;
+        min-height: 50px;
+        min-width: 50px;
+    }
 /* Start content */
 
 
