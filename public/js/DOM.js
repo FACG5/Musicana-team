@@ -46,7 +46,7 @@ var number = getID("number");
         var mp4link;
         var alyrics;
 
-        fetch('https://itunes.apple.com/search?term='+keywords+'&limit=1', function(obj2){
+        fetch('https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term='+keywords+'&limit=1', function(obj2){
             mp4link=obj2.results[0].previewUrl;
             console.log('music link: ' + mp4link);
             audioTool.src=mp4link;
