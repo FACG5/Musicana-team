@@ -6,7 +6,7 @@
 
 ## What ? 
 
- The website gives the user the ability to search for any singer he/she  likes.  Which will, in turn, give him/her certain number of songs. then when we want to listen which one, we click on link.
+The website gives the user the ability to search for any singer he/she  likes.  Which will, in turn, give him/her certain number of songs. then when we want to listen which one and read a lyrics, we click on link.
  
  ## Why ? 
 
@@ -27,7 +27,7 @@ It was a great experience. We enjoyed teamwork.
 
 * We learned how search about APIs.
 
-* We learned how use APIs in our projects.
+* We learned how use 3 APIs in our projects.
 
 * We Learned how creat XHR request.
 
@@ -35,7 +35,7 @@ It was a great experience. We enjoyed teamwork.
 
 ## User Story..
 
-If any one wants to use our website he/she can type any singer name that they want and the result will be certain number of songs. then when he/she want to listen which one,you click on link.
+If any one wants to use our website he/she can type any singer name that they want and the result will be certain number of songs. then when he/she want to listen which one and read a lyrics,you click on link.
 
 
 ## Who are we?
