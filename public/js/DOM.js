@@ -14,7 +14,7 @@ var number = getID("number");
 
         var limit = number.value;
         var inpSearch = result.value;
-        var url = "http://ws.audioscrobbler.com/2.0/?method=track.search&track=%20&artist="+inpSearch+"&format=json&api_key=a4e7f14385fcf0448c9693394bd04c0e&limit="+limit+"";
+        var url = "https://cors-anywhere.herokuapp.com/http://ws.audioscrobbler.com/2.0/?method=track.search&track=%20&artist="+inpSearch+"&format=json&api_key=a4e7f14385fcf0448c9693394bd04c0e&limit="+limit+"";
         fetch(url, function(obj){
             var leng = obj.results.trackmatches.track.length;
             if (obj.results.trackmatches.track[0]){
