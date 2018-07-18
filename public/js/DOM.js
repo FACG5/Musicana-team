@@ -6,9 +6,10 @@
     var mykey = config.MY_KEY;
     search.addEventListener('click', function() { 
         view.innerHTML = ""; 
+
         var limit = number.value;
         var inpSearch = result.value;
-    var url = "http://ws.audioscrobbler.com/2.0/?method=track.search&track=%20&artist="+inpSearch+"&format=json&api_key="+mykey+"&limit="+limit+"";
+        var url = "http://ws.audioscrobbler.com/2.0/?method=track.search&track=%20&artist="+inpSearch+"&format=json&api_key="+mykey+"&limit="+limit+"";
         fetch(url, function(obj){
             var leng = obj.results.trackmatches.track.length;
             var image1 = obj.results.trackmatches.track[0].image[3]["#text"];
@@ -30,5 +31,5 @@
             }
         })
     })
-    
+
 })();
