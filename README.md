@@ -86,4 +86,4 @@ It was a great experience. We enjoyed teamwork.
 * [x] Tests
 * [x] Responsive
 * [x] Mobile-first design
-* [x] Acceptability
+* [x] Accessbility
