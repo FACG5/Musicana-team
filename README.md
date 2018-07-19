@@ -84,6 +84,8 @@ It was a great experience. We enjoyed teamwork.
 ## WE ACHIEVED:
 * [x] Three APIs
 * [x] Tests
+* [x] software architecture.
 * [x] Responsive
 * [x] Mobile-first design
-* [x] Accessbility
+* [x] Accessbility  
+
